@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   circleci-cli: circleci/circleci-cli@0.1.8
   orbs: circleci/orb-tools@10.0.0
-  general: zeitler/general@0.0.2
+  general: zeitler/general@dev:test-add-set-x-to-halt-commands
 
 workflows:
   main:
