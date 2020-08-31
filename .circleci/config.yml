@@ -24,7 +24,7 @@ workflows:
       - general/publish-circleci-dev:
           context: Orb Publishing
           orb-ref: zeitler/general
-          token-variable: $ORB_PUBLISHING_TOKEN
+          token-variable: ORB_PUBLISHING_TOKEN
           requires:
             - general/lint-commit
             - general/lint-json
@@ -53,7 +53,7 @@ workflows:
           git-user-email: 18561582+bzeitler69@users.noreply.github.com
           git-user-name: "Release Bot"
           orb-ref: zeitler/general
-          token-variable: $ORB_PUBLISHING_TOKEN
+          token-variable: ORB_PUBLISHING_TOKEN
           requires:
             - general/lint-commit
             - general/lint-json

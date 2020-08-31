@@ -947,7 +947,7 @@ jobs:
         description: A versionless orb-ref in the form <namespace>/<orb-name>
         type: string
       token-variable:
-        description: The env var containing your token. Pass this as a literal string such as `${ORB_PUBLISHING_TOKEN}`. Do not paste the actual token into your configuration.
+        description: Name of env var containing your token. Pass this as a raw string such as ORB_PUBLISHING_TOKEN. Do not paste the actual token into your configuration.
         type: string
     steps:
       - get-workspace
@@ -985,7 +985,7 @@ jobs:
         description: A versionless orb-ref in the form <namespace>/<orb-name>
         type: string
       token-variable:
-        description: The env var containing your token. Pass this as a literal string such as `${ORB_PUBLISHING_TOKEN}`. Do not paste the actual token into your configuration.
+        description: Name of env var containing your token. Pass this as a raw string such as ORB_PUBLISHING_TOKEN. Do not paste the actual token into your configuration.
         type: string
     steps:
       - get-workspace
