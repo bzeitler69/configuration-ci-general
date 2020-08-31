@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.31.1"></a>
+## [1.31.1](https://github.com/edahlseng/configuration-ci-general/compare/v1.31.0...v1.31.1) (2020-08-31)
+
+
+### Bug Fixes
+
+* Fix ORB_PUBLISHING_TOKEN variable specification ([7fcb4f3](https://github.com/edahlseng/configuration-ci-general/commit/7fcb4f3))
+* Update config to use 0.13 terraform version ([ba74ee0](https://github.com/edahlseng/configuration-ci-general/commit/ba74ee0))
+
+
+
 <a name="1.31.0"></a>
 # [1.31.0](https://github.com/edahlseng/configuration-ci-general/compare/v1.30.0...v1.31.0) (2020-05-07)
 
