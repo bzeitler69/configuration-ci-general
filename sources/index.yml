@@ -79,6 +79,7 @@ commands:
       - run:
           name: Ensuring commit is a release commit
           command: |
+            set -x
             if [[ ! $(git log --format=%B -n 1 ${CIRCLE_SHA1} | head -n 1) =~ chore\(release\): ]]; then
               echo "Not a release commit, halting"
               circleci-agent step halt
@@ -89,6 +90,7 @@ commands:
       - run:
           name: Ensuring commit is not a release commit
           command: |
+            set -x
             if [[ $(git log --format=%B -n 1 ${CIRCLE_SHA1} | head -n 1) =~ chore\(release\): ]]; then
               echo "Release commit, halting"
               circleci-agent step halt
